@@ -1,0 +1,97 @@
+/* - White: hsl(0, 0%, 100%) */
+
+/* - Family: [Outfit](https: //fonts.google.com/specimen/Outfit) */
+    /* - Weights: 400, 700 */
+
+        /* The designs were created to the following widths:
+         - Mobile: 375px - Desktop: 1440px */
+
+
+         /* .attribution {
+             font-size: 11px;
+             text-align: center;
+         }
+    
+         .attribution a {
+             color: hsl(228, 45%, 44%);
+         }
+ */
+
+
+
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: "Outfit", sans-serif;
+    background-color: #d3dfed;
+    padding: 10px 10px;
+}
+
+.container{
+    background-color:white;
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+    width: 375px;
+/* width: 1100px;  */
+   margin: 10px auto;  
+     padding:7px 15px;
+     border-radius: 20px;
+
+}
+
+
+
+img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.img{
+    width: 350px;
+    align-items: center;
+    justify-content:center;
+    margin: 10px 0;
+    /* background-color: green; */
+   
+    
+}
+
+.text{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    /* margin: 0 auto; */
+    /* background-color: red; */
+    line-height: 1.4;
+    padding:2px 10px;
+    margin-bottom: 30px;
+}
+
+h2{
+    font-family:"Outfit",  sans-serif ;
+    font: 700;
+    font-size: 25px;
+    line-height: 1.4;
+    margin: 10px 0;
+    color: #080f22;
+}
+
+h4{
+    color: #7e818a;
+}
+
+.attribution{
+    margin: 20px 0;
+}
+
